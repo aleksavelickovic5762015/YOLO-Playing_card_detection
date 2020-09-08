@@ -18,11 +18,14 @@ https://github.com/geaxgx/playing-card-detection
 
 Тренирање је изршено коришћењем Darknet фрејмворка:
 https://github.com/AlexeyAB/darknet
+
 Користио сам виртуелну машину на GoogleColaboratory за тренирање, линк на свеску:
 https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sharing
 
 Линк на два видеа са YouTube.
+
 Поступак припреме слика и промене параметара током тренирања:
 https://youtu.be/pnntrewH0xg
+
 Коришћење Darknet у GoogleColaboratory:
 https://youtu.be/mmj3nxGT2YQ
