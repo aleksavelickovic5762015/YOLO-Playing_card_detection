@@ -3,6 +3,9 @@
 Видео на коме је извршена детекција карата:
 https://drive.google.com/file/d/1-Jd3jtQmfzYIymziRFvmzKLNjx7yzGqo/view?usp=drivesdk
 
+Тежински коефицијенти истрениране мреже:
+https://drive.google.com/file/d/1-2HHIq1DWr3cKZ7LTFsWU1TEIZnFhq_q/view?usp=sharing
+
 Сваку од 52 карте шпила сам снимио под различитим осветљењем, пример:
 https://drive.google.com/file/d/102PA6_wRgA8eTqtfgw9l7Mrq5TbDXe44/view?usp=drivesdk
 
