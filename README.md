@@ -60,7 +60,7 @@ https://github.com/geaxgx/playing-card-detection
 Training of the dataset was done using Darknet framework:
 https://github.com/AlexeyAB/darknet
 
-I used GoogleColaboratory for running the framework, jupyter notebook:
+I used GoogleColaboratory for running the framework, notebook:
 https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sharing
 
 YouTube videos:
