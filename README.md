@@ -41,7 +41,7 @@ https://youtu.be/mmj3nxGT2YQ
 Card detection video result:
 https://drive.google.com/file/d/1-Jd3jtQmfzYIymziRFvmzKLNjx7yzGqo/view?usp=drivesdk
 
-Weights of trained network:
+Weights of the trained network:
 https://drive.google.com/file/d/1-2HHIq1DWr3cKZ7LTFsWU1TEIZnFhq_q/view?usp=sharing
 
 Every card from 52 card deck was filmed in different lighting conditions, example:
