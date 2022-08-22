@@ -51,7 +51,7 @@ From every video, i.e. for every card there are 100 images.
 Rectangle that surrounds card value is defined to fit card deck that is used.
 Then the function that creates a polygon around the card value (inside defined rectangle) is called.
 Training set is created by random positioning of a card on a random backround image.
-Half of the training set is created by translation, rotation and zooming of two cards: and the other half contains images of three cards, one next to the other, randomly positioned.
+Half of the training set is created by translation, rotation and zooming of two cards; and the other half contains images of three cards, one next to the other, randomly positioned.
 Python function transforms card position data in XML file to the YOLO format, and writes it to txt file.
 Training dataset contains 50000 images, validation dataset 10000.
 Github repository for creatnig dataset:
