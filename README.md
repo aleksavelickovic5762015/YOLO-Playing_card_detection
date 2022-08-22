@@ -1,4 +1,4 @@
-# Diplomski-rad---YOLO-detekcija
+# YOLO-detection
 
 Видео на коме је извршена детекција карата:
 https://drive.google.com/file/d/1-Jd3jtQmfzYIymziRFvmzKLNjx7yzGqo/view?usp=drivesdk
@@ -31,4 +31,41 @@ https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sh
 https://youtu.be/pnntrewH0xg
 
 Коришћење Darknet у GoogleColaboratory:
+https://youtu.be/mmj3nxGT2YQ
+
+
+===================================================================================
+(ENG)
+
+Card detection video result:
+https://drive.google.com/file/d/1-Jd3jtQmfzYIymziRFvmzKLNjx7yzGqo/view?usp=drivesdk
+
+Weights of trained network:
+https://drive.google.com/file/d/1-2HHIq1DWr3cKZ7LTFsWU1TEIZnFhq_q/view?usp=sharing
+
+Every card from 52 card deck was filmed in different lighting conditions, example:
+https://drive.google.com/file/d/102PA6_wRgA8eTqtfgw9l7Mrq5TbDXe44/view?usp=drivesdk
+
+From every video, i.e. for every card there are 100 images.
+Rectangle that surrounds card value is defined to fit card deck that is used.
+Then the function that creates a polygon around the card value (inside defined rectangle) is called.
+Training set is created by random positioning of a card on a random backround image.
+Half of the training set is created by translation, rotation and zooming of two cards: and the other half contains images of three cards, one next to the other, randomly positioned.
+Python function transforms card position data in XML file to the YOLO format, and writes it to txt file.
+Training dataset contains 50000 images, validation dataset 10000.
+Github repository for creatnig dataset:
+https://github.com/geaxgx/playing-card-detection
+
+Training of the dataset was done using Darknet framework:
+https://github.com/AlexeyAB/darknet
+
+I used GoogleColaboratory for running the framework, jupyter notebook:
+https://colab.research.google.com/drive/1_GdoqCJWXsChrOiY8sZMr_zbr_fH-0Fg?usp=sharing
+
+YouTube videos:
+
+Creating dataset, changing training parameters:
+https://youtu.be/pnntrewH0xg
+
+Using Darknet in GoogleColaboratory:
 https://youtu.be/mmj3nxGT2YQ
