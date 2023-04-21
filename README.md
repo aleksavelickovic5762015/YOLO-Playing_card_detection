@@ -16,8 +16,6 @@ https://drive.google.com/file/d/102PA6_wRgA8eTqtfgw9l7Mrq5TbDXe44/view?usp=drive
 Пола скупа је генерисано насумичним транслирањем, ротацијом и увећавањем две карте; у другој половини су карте такође насумично позициониране, али сад једна до друге као када се држе у руци.
 На крају се позива пајтон функција која позиције генерисаних карата из XML датотеке преводи у формат који одговара YOLO и уписује у txt датотеку.
 Тренинг скуп садржи 50000 слика, валидациони 10000.
-Гитхаб репозиторијум за генрисање тренинг података:
-https://github.com/geaxgx/playing-card-detection
 
 Тренирање је изршено коришћењем Darknet фрејмворка:
 https://github.com/AlexeyAB/darknet
@@ -54,8 +52,6 @@ Training set is created by random positioning of a card on a random backround im
 Half of the training set is created by translation, rotation and zooming of two cards; and the other half contains images of three cards, one next to the other, randomly positioned.
 Python function transforms card position data in XML file to the YOLO format, and writes it to txt file.
 Training dataset contains 50000 images, validation dataset 10000.
-Github repository for creatnig dataset:
-https://github.com/geaxgx/playing-card-detection
 
 Training of the dataset was done using Darknet framework:
 https://github.com/AlexeyAB/darknet
